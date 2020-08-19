@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "",
+      "technologies": "",
+      "live_link": "https://cleichsenring.github.io/Random-Quote-Generator/",
+      "github_link": "https://github.com/cleichsenring/Random-Quote-Generator",
+      "image_urls": [
+
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "List Pagination & Filtering",
+      "description": "",
+      "technologies": "",
+      "live_link": "https://cleichsenring.github.io/List-Pagination-and-Filtering/",
+      "github_link": "https://github.com/cleichsenring/List-Pagination-and-Filtering",
+      "image_urls": [
+
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "",
+      "technologies": "",
+      "live_link": "https://cleichsenring.github.io/Interactive-Form/",
+      "github_link": "https://github.com/cleichsenring/Interactive-Form",
+      "image_urls": [
+
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Phrase Hunter OOP Game",
+      "description": "",
+      "technologies": "",
+      "live_link": "https://cleichsenring.github.io/Phrase-Hunter-OOP-Game/",
+      "github_link": "https://github.com/cleichsenring/Phrase-Hunter-OOP-Game",
+      "image_urls": [
+
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Random User Public API",
+      "description": "",
+      "technologies": "",
+      "live_link": "https://cleichsenring.github.io/Random-User-Public-API/",
+      "github_link": "https://github.com/cleichsenring/Random-User-Public-API",
+      "image_urls": [
+
+      ]
+    }
+  ]
+}

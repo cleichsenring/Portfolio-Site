@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const { projects} = require('./data.json')
+const { projects } = require('./data.json')
 
 
 const PORT = 3000;
@@ -11,7 +11,8 @@ app.use('/static', express.static('public'));
 
 
 app.get('/', (req,res) => {
-  res.render('index')
+  //console.log(projects);
+  res.render('index', { projects })
 });
 
 app.get('/about', (req,res) => {
@@ -20,7 +21,23 @@ app.get('/about', (req,res) => {
 
 app.get('/projects/:id', (req,res) => {
   const {id} = req.params;
-  
+  const project = projects[id];
+
+  res.render('project', project);
+});
+
+
+app.use((req,res,next) => {
+  const err = new Error('Not Found');
+  err.status = 404;
+  console.log(`Thre was an error. NEED TO UPDATE`)
+  next(err);
+});
+
+app.use((err,req,res,next) => {
+  res.locals.error = err
+  res.status(err.status);
+  res.render('error');
 });
 
 

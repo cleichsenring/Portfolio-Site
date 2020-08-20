@@ -5,14 +5,17 @@
       "project_name": "Random Quote Generator",
       "description": "",
       "technologies": [
-        "",
-        "",
-        ""
+        "HTML",
+        "CSS",
+        "Javascript"
       ],
       "live_link": "https://cleichsenring.github.io/Random-Quote-Generator/",
       "github_link": "https://github.com/cleichsenring/Random-Quote-Generator",
       "image_urls": [
-
+        "/static/images/random_quote_1.png",
+        "/static/images/random_quote_2.png",
+        "/static/images/random_quote_3.png",
+        "/static/images/random_quote_4.png"
       ]
     },
     {
@@ -27,7 +30,10 @@
       "live_link": "https://cleichsenring.github.io/List-Pagination-and-Filtering/",
       "github_link": "https://github.com/cleichsenring/List-Pagination-and-Filtering",
       "image_urls": [
-
+        "/static/images/pagination_1.png",
+        "/static/images/pagination_2.png",
+        "/static/images/pagination_3.png",
+        "/static/images/pagination_4.png"
       ]
     },
     {
@@ -42,7 +48,10 @@
       "live_link": "https://cleichsenring.github.io/Interactive-Form/",
       "github_link": "https://github.com/cleichsenring/Interactive-Form",
       "image_urls": [
-
+        "/static/images/form_1.png",
+        "/static/images/form_2.png",
+        "/static/images/form_3.png",
+        "/static/images/form_4.png"
       ]
     },
     {
@@ -57,7 +66,10 @@
       "live_link": "https://cleichsenring.github.io/Phrase-Hunter-OOP-Game/",
       "github_link": "https://github.com/cleichsenring/Phrase-Hunter-OOP-Game",
       "image_urls": [
-
+        "/static/images/form_1.png",
+        "/static/images/game_2.png",
+        "/static/images/game_3.png",
+        "/static/images/game_4.png"
       ]
     },
     {
@@ -72,7 +84,10 @@
       "live_link": "https://cleichsenring.github.io/Random-User-Public-API/",
       "github_link": "https://github.com/cleichsenring/Random-User-Public-API",
       "image_urls": [
-
+        "/static/images/public_api_1.png",
+        "/static/images/public_api_2.png",
+        "/static/images/public_api_3.png",
+        "/static/images/public_api_4.png"
       ]
     }
   ]

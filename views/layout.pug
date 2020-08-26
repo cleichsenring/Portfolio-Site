@@ -8,6 +8,13 @@ html(class="no-js" lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
+    
+    //Rel links for Favicon. Generated on https://favicon.io/favicon-generator/
+    link(rel='apple-touch-icon', sizes='180x180', href='/static/images/apple-touch-icon.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='/static/images/favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='/static/images/favicon-16x16.png')
+    link(rel='manifest', href='/static/site.webmanifest')
+
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
@@ -30,7 +37,7 @@ html(class="no-js" lang="en" dir="ltr")
               | Voice Enthusiast.
               br
               | Gamer.
-            a(href='about') Learn More →
+            a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large

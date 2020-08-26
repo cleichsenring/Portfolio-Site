@@ -1,6 +1,8 @@
 extends layout.pug
 
 block content
-  h2 #{error.message}
-  h4 #{error.status}
-  pre #{error.stack}
+  h2= error.message
+  h4= error.status
+  pre= error.stack
+  br
+  a(href='/', style='bold')  ← Go Home 

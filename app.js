@@ -22,20 +22,20 @@ app.get('/about', (req,res) => {
 app.get('/projects/:id', (req,res) => {
   const {id} = req.params;
   const project = projects[id];
-
+  
   res.render('project', project);
 });
 
 
 app.use((req,res,next) => {
-  const err = new Error('Not Found');
+  const err = new Error('Uh ohh... The page you went looking for went up in smoke!');
   err.status = 404;
-  console.log(`Thre was an error. NEED TO UPDATE`)
+  console.log(`Someone tried to navigate to ${req.path} and received a ${err.status} error.`)
   next(err);
 });
 
 app.use((err,req,res,next) => {
-  res.locals.error = err
+  res.locals.error = err;
   res.status(err.status);
   res.render('error');
 });

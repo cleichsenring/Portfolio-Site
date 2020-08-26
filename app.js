@@ -3,7 +3,7 @@ const app = express();
 const { projects } = require('./data.json')
 
 
-const PORT = 3000;
+const port = process.env.PORT || 3000;
 
 
 app.set('view engine', 'pug');
@@ -22,7 +22,7 @@ app.get('/about', (req,res) => {
 app.get('/projects/:id', (req,res) => {
   const {id} = req.params;
   const project = projects[id];
-  
+
   res.render('project', project);
 });
 
@@ -43,6 +43,6 @@ app.use((err,req,res,next) => {
 
 
 
-app.listen(PORT, () => {
-  console.log(`Find me at localhost:${PORT}`);
+app.listen(port, () => {
+  console.log(`Find me at localhost:${port}`);
 })

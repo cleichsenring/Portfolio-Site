@@ -3,7 +3,7 @@
     {
       "id": 0,
       "project_name": "Random Quote Generator",
-      "description": "",
+      "description": "This project generates a random quote from an array. Annotation for citation, year and tag are conditionally generated if value is present. Every 20 seconds the page will generate a new quote with a varied background color.",
       "technologies": [
         "HTML",
         "CSS",
@@ -21,11 +21,11 @@
     {
       "id": 1,
       "project_name": "List Pagination & Filtering",
-      "description": "",
+      "description": "Filters through a variable list of users and dynamically generate pagination. Search functionality generates new pagination links as user searches",
       "technologies": [
-        "",
-        "",
-        ""
+        "HTML",
+        "CSS",
+        "Javascript"
       ],
       "live_link": "https://cleichsenring.github.io/List-Pagination-and-Filtering/",
       "github_link": "https://github.com/cleichsenring/List-Pagination-and-Filtering",
@@ -39,11 +39,11 @@
     {
       "id": 2,
       "project_name": "Interactive Form",
-      "description": "",
+      "description": "Interactive form for a fictional conference. The available options change based on user selection and inputs are verified before the user can submit.",
       "technologies": [
-        "",
-        "",
-        ""
+        "HTML",
+        "CSS",
+        "Javascript"
       ],
       "live_link": "https://cleichsenring.github.io/Interactive-Form/",
       "github_link": "https://github.com/cleichsenring/Interactive-Form",
@@ -57,16 +57,16 @@
     {
       "id": 3,
       "project_name": "Phrase Hunter OOP Game",
-      "description": "",
+      "description": "A phrase guessing game built using Javascript classes. Will you guess them all?",
       "technologies": [
-        "",
-        "",
-        ""
+        "HTML",
+        "CSS",
+        "Object Oriented Javascript"
       ],
       "live_link": "https://cleichsenring.github.io/Phrase-Hunter-OOP-Game/",
       "github_link": "https://github.com/cleichsenring/Phrase-Hunter-OOP-Game",
       "image_urls": [
-        "/static/images/form_1.png",
+        "/static/images/game_1.png",
         "/static/images/game_2.png",
         "/static/images/game_3.png",
         "/static/images/game_4.png"
@@ -75,11 +75,12 @@
     {
       "id": 4,
       "project_name": "Random User Public API",
-      "description": "",
+      "description": "Employee directory for fictional startup. Users are randomly generated through an API call to the Random User Generator API.",
       "technologies": [
-        "",
-        "",
-        ""
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Public API"
       ],
       "live_link": "https://cleichsenring.github.io/Random-User-Public-API/",
       "github_link": "https://github.com/cleichsenring/Random-User-Public-API",

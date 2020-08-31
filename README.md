@@ -20,8 +20,8 @@ The following changes have been made:
       link(rel='icon', type='image/png', sizes='16x16', href='/static/images/favicon-16x16.png')
       link(rel='manifest', href='/static/site.webmanifest')
     ```
-* Change 2
-* Change 3
+* Project images on index transform scale(1.1) on :hover
+* Thumbnail images border color change to lime green
 
 
 

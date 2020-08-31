@@ -50,7 +50,7 @@ a:hover{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 4px #fefefe; /*Need to update to random color */
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
@@ -147,4 +147,14 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+
+/*Custom CCS*/
+
+.thumbnail {
+  border-color: limegreen;
+}
+.thumbnail:hover {
+  transform: scale(1.1);
 }

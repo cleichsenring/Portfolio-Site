@@ -2,13 +2,10 @@ const express = require('express');
 const app = express();
 const { projects } = require('./data.json')
 
-
 const port = process.env.PORT || 3000;
-
 
 app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
-
 
 app.get('/', (req,res) => {
   res.render('index', { projects })
@@ -48,4 +45,4 @@ app.use((err,req,res,next) => {
 
 app.listen(port, () => {
   console.log(`Find me at localhost:${port}`);
-})
+});

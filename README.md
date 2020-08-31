@@ -5,8 +5,9 @@ This is the repo for my portfolio site [leichsenring.io](https://leichsenring-po
 
 ## Instructions
 1. Download repo
-2. Using your terminal cd into the project folder
-3. Run `npm start`. Once the Express server is running you will see the URL and port printed out
+2. CD into the project folder
+3. Run `npm install`
+4. Run `npm start`. Once the Express server is running you will see the URL and port printed out
 
 ***
 

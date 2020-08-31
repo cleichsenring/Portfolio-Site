@@ -1,5 +1,5 @@
 # Portfolio Website
-This is the repo for my portfolio site [leichsenring.io](https://dashboard.heroku.com/apps/leichsenring-portfolio) 
+This is the repo for my portfolio site [leichsenring.io](https://leichsenring-portfolio.herokuapp.com/) 
 
 **You may have to refresh if the site doesn't load the first time. This is due to the free Dyno tier on Heroku going to sleep after 30 minutes and having to boot back up. :disappointed:
 
